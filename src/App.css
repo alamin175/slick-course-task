@@ -1,0 +1,13 @@
+#root {
+	max-width: 1480px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+@font-face {
+	font-family: 'Ranade';
+	src: url(/Ranade-Variable.ttf);
+}
+body {
+	font-family: 'Ranade', sans-serif;
+}

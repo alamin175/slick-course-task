@@ -1,0 +1,21 @@
+.banner {
+	background-image: url('/assets/banner.png');
+	background-repeat: no-repeat;
+	height: 1427px;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.banner .large-text {
+		line-height: 130px;
+		font-size: 100px;
+	}
+}
+@media (min-width: 1024px) {
+	.banner .large-text {
+		font-size: 132px;
+		line-height: 171px;
+	}
+}
