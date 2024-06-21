@@ -7,6 +7,19 @@
 	text-align: center;
 }
 
+.text-outline {
+	color: transparent;
+	-webkit-text-stroke: 1px white;
+	opacity: 20%;
+	top: 30px;
+}
+
+.demo-text {
+	left: 20%;
+	right: 75%;
+	bottom: -300px;
+}
+
 @media (min-width: 768px) {
 	.banner .large-text {
 		line-height: 130px;

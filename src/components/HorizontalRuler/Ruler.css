@@ -1,0 +1,19 @@
+.ruler::before,
+.ruler::after {
+	content: '';
+	position: absolute;
+	width: 12px; /* Adjust size as needed */
+	background-color: black;
+	border-radius: 50%;
+	height: 12px; /* Adjust size as needed */
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.ruler::before {
+	left: -6px; /* Position the circle at the start */
+}
+
+.ruler::after {
+	right: -6px; /* Position the circle at the end */
+}
