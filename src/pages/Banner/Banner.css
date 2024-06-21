@@ -2,8 +2,7 @@
 	background-image: url('/assets/banner.png');
 	background-repeat: no-repeat;
 	height: 1427px;
-	background-size: cover;
-	background-position: center;
+	/* background-size: cover; */
 	text-align: center;
 }
 

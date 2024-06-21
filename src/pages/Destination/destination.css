@@ -1,0 +1,14 @@
+.details-container > div {
+	width: 660px;
+	height: 440px;
+}
+.details-container > div:first-child {
+	background-image: url('/assets/rectangle-2.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.details-container > div:last-child {
+	background-image: url('/assets/rectangle-3.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}

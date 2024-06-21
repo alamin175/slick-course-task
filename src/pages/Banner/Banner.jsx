@@ -12,7 +12,7 @@ import { FaArrowRight } from 'react-icons/fa6';
 
 const Banner = () => {
 	return (
-		<div className="banner overflow-hidden">
+		<div className="banner overflow-hidden relative z-50">
 			<Navbar />
 			<div>
 				<h1

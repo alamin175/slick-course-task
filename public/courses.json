@@ -1,0 +1,34 @@
+[
+	{
+		"id": 1,
+		"image": "/assets/image-1.png",
+		"title": "React - The complete guide (incl hooks, react router, redux)",
+		"time": 27,
+		"price": 99.99,
+		"review": "(4.5k reviews)"
+	},
+	{
+		"id": 2,
+		"image": "/assets/image-2.png",
+		"title": "The complete 2023 web development bootcamp",
+		"time": 65.5,
+		"price": 89.99,
+		"review": "(4.5k reviews)"
+	},
+	{
+		"id": 3,
+		"image": "/assets/image-3.png",
+		"title": "100 days of code: the complete python pro bootcamp for 2023",
+		"time": 64,
+		"price": 109.99,
+		"review": "(4.5k reviews)"
+	},
+	{
+		"id": 4,
+		"image": "/assets/image-2.png",
+		"title": "Java script with es6 version",
+		"time": 57,
+		"price": 79.99,
+		"review": "(4.5k reviews)"
+	}
+]
