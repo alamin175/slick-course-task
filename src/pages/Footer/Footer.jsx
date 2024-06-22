@@ -4,11 +4,13 @@ const Footer = () => {
 	return (
 		<footer>
 			{/* Link Footer */}
-			<div className="grid md:grid-cols-2 mx-6 md:mx-20 mt-20 mb-10 uppercase gap-16 md:gap-32">
+			<div className="grid lg:grid-cols-2 mx-3 md:mx-20 mt-20 mb-10 uppercase gap-16 md:gap-32">
 				<div className="flex justify-between ">
 					<div>
-						<h1 className="font-bold text-2xl mb-5">Company</h1>
-						<div className="flex flex-col gap-3 text-gray-700 font-semibold footer-nav ">
+						<h1 className="font-bold text-lg  md:text-2xl mb-5">
+							Company
+						</h1>
+						<div className="flex flex-col gap-3 text-gray-700 font-semibold footer-nav text-[12px] md:text-[16px]">
 							<a href="#">about us</a>
 							<a href="#">services</a>
 							<a href="#">community</a>
@@ -16,25 +18,29 @@ const Footer = () => {
 						</div>
 					</div>
 					<div>
-						<h1 className="font-bold text-2xl mb-5">support</h1>
-						<div className="flex flex-col gap-3 text-gray-700 font-semibold footer-nav ">
+						<h1 className="font-bold text-lg  md:text-2xl mb-5">
+							support
+						</h1>
+						<div className="flex flex-col gap-3 text-gray-700 font-semibold footer-nav text-[12px] md:text-[16px]">
 							<a href="#">help center</a>
 							<a href="#">webinars</a>
 							<a href="#">become a mentor</a>
 						</div>
 					</div>
 					<div>
-						<h1 className="font-bold text-2xl mb-5">help</h1>
-						<div className="flex flex-col gap-3 text-gray-700 font-semibold footer-nav ">
+						<h1 className="font-bold text-lg  md:text-2xl mb-5">help</h1>
+						<div className="flex flex-col gap-3 text-gray-700 font-semibold footer-nav text-[12px] md:text-[16px]">
 							<a href="#">contact us</a>
 							<a href="#">faq</a>
 							<a href="#">accessibility</a>
 						</div>
 					</div>
 				</div>
-				<div className="flex flex-col gap-6 text-gray-700 font-semibold">
-					<h1 className="text-7xl font-bold text-black">Newsletter</h1>
-					<p>
+				<div className="flex order-first lg:order-last flex-col gap-6 text-gray-700 font-semibold">
+					<h1 className="text-5xl md:text-7xl font-bold text-black">
+						Newsletter
+					</h1>
+					<p className="text-[12px] md:text-[15px]">
 						get the lates about us and sign up to get 10% off today. never
 						miss a single promo
 					</p>
@@ -84,9 +90,8 @@ const Footer = () => {
 
 			<hr className="border-2" />
 			{/* copyright footer */}
-			<div className="uppercase flex justify-between mx-6 md:mx-20 my-6">
-				<p>© 2024 seative digital all rights reserved</p>
-				<span className="flex gap-12 font-semibold">
+			<div className="uppercase md:flex flex-row-reverse   justify-between mx-6 md:mx-20 my-6 text-center md:text-start">
+				<p className="flex gap-8 md:gap-12 font-semibold mb-4 md:mb-0">
 					<a className="hover:text-blue-600 hover:underline" href="#">
 						{' '}
 						terms of service
@@ -94,7 +99,8 @@ const Footer = () => {
 					<a className="hover:text-blue-600 hover:underline" href="#">
 						privacy & policy
 					</a>
-				</span>
+				</p>
+				<p>© 2024 seative digital all rights reserved</p>
 			</div>
 		</footer>
 	);

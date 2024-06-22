@@ -12,3 +12,41 @@
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+@media (max-width: 768px) {
+	.details-container > div {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+/* 
+.details-container {
+	position: relative;
+	width: 500px;
+	height: 300px;
+	top: 100px;
+	border-radius: 0 15px 15px;
+	background: blue;
+	padding: 25px;
+}
+.details {
+	position: absolute;
+	left: 0;
+	top: -50px;
+	width: 80%;
+	height: 50px;
+	border-radius: 15px 15px 0 0;
+	background: blue;
+}
+.details::before {
+	content: '';
+	position: absolute;
+	right: -25px;
+	bottom: 0;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	box-shadow: -10.5px 10.5px blue;
+	background: blue;
+} */

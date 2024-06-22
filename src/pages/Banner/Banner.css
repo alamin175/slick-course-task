@@ -5,6 +5,13 @@
 	/* background-size: cover; */
 	text-align: center;
 }
+/* 
+.bg-image {
+	background-image: url('/assets/rectangle-1.png');
+	background-size: cover;
+	width: 545px;
+	height: 415px;
+} */
 
 .text-outline {
 	color: transparent;
@@ -21,13 +28,13 @@
 
 @media (min-width: 768px) {
 	.banner .large-text {
-		line-height: 130px;
-		font-size: 100px;
+		line-height: 140px;
+		font-size: 120px;
 	}
 }
 @media (min-width: 1024px) {
 	.banner .large-text {
-		font-size: 132px;
 		line-height: 171px;
+		font-size: 132px;
 	}
 }

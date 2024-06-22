@@ -9,28 +9,34 @@ const Courses = () => {
 
 	return (
 		<div>
-			<h1 className="text-center text-7xl font-extrabold uppercase leading-tight">
+			<h1 className="text-center text-4xl md:text-7xl font-extrabold uppercase leading-tight">
 				simple and powerful <br />{' '}
 				<span className="text-secondaryColor underline">it courses</span>
 			</h1>
 			<div className="flex flex-col gap-6 w-11/12 mx-auto my-20">
 				{courses.slice(0, browseToShow).map(course => (
 					<div key={course.id}>
-						<div className="flex justify-between items-center ">
-							<div className="flex gap-4 md:gap-10 items-center">
-								<img className="" src={course.image} alt="course-img" />
+						<div className="sm:flex justify-between items-center ">
+							<div className="flex gap-2 sm:gap-6 md:gap-10 items-center">
+								<img
+									className="w-44 sm:w-64 lg:w-80"
+									src={course.image}
+									alt="course-img"
+								/>
 								<div>
-									<div className="flex items-center">
+									<div className="md:flex items-center">
 										<div className="text-primaryColor flex gap-[2px] mr-[2px]">
 											<FaStar />
 											<FaStar />
 											<FaStar />
 											<FaStar />
+											<FaStar className="text-gray-400 mr-2" />
 										</div>
-										<FaStar className="text-gray-400 mr-2" />
-										<p>{course.review}</p>
+										<p className="text-[10px] sm:text-sm">
+											{course.review}
+										</p>
 									</div>
-									<p className="text-[10px] md:text-2xl font-bold uppercase max-w-[25ch] md:max-w-[40ch] my-1 md:my-3">
+									<p className="text-[10px] md:text-lg lg:text-2xl font-bold uppercase max-w-[25ch] md:max-w-[40ch] my-1 md:my-3">
 										{course.title}
 									</p>
 									<p className="text-secondaryColor font-bold text-[8px] md:text-lg">
@@ -38,13 +44,15 @@ const Courses = () => {
 									</p>
 								</div>
 							</div>
-							<p className="sm:text-3xl font-bold">${course.price}</p>
+							<p className="text-lg sm:text-3xl font-bold mt-3 sm:mt-0">
+								${course.price}
+							</p>
 						</div>
 						<hr className="mt-6 border-2" />
 					</div>
 				))}
 				<button
-					className="bg-secondaryColor p-4 rounded-full text-white font-bold w-64 mx-auto mt-6 uppercase transform transition-all hover:bg-primaryColor hover:text-black "
+					className="bg-secondaryColor p-4 rounded-full text-white font-bold w-44 sm:w-64 mx-auto mt-6 uppercase transform transition-all hover:bg-primaryColor hover:text-black "
 					onClick={() => {
 						setBrowseAll(!browseAll);
 					}}
