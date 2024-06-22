@@ -1,4 +1,6 @@
 import logo from '/assets/logo.png';
+import { MdMenu } from 'react-icons/md';
+
 const Navbar = () => {
 	const listing = (
 		<>
@@ -17,7 +19,7 @@ const Navbar = () => {
 		/* THis Navbar from DaisyUi */
 
 		<div>
-			<div className="navbar bg-base-100 p-5">
+			<div className="navbar bg-base-100 p-3 font-bold sm:p-5">
 				<div className="navbar-start">
 					<div className="dropdown">
 						<div
@@ -25,24 +27,11 @@ const Navbar = () => {
 							role="button"
 							className="btn btn-ghost lg:hidden"
 						>
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								className="h-5 w-5"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-							>
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="2"
-									d="M4 6h16M4 12h8m-8 6h16"
-								/>
-							</svg>
+							<MdMenu className="text-3xl" />
 						</div>
 						<ul
 							tabIndex={0}
-							className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+							className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-white rounded-box w-52"
 						>
 							{listing}
 						</ul>
@@ -56,7 +45,7 @@ const Navbar = () => {
 					<ul className="menu menu-horizontal px-1">{listing}</ul>
 				</div>
 				<div className="navbar-end">
-					<button className="bg-secondaryColor p-4 text-white uppercase font-semibold text-md px-6 rounded-2xl hover:bg-black  transform transition-all">
+					<button className="bg-secondaryColor p-3 sm:p-4 text-white sm:uppercase font-semibold text-md sm:px-6 rounded-2xl hover:bg-black  transform transition-all">
 						Get Started
 					</button>
 				</div>

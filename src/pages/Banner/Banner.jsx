@@ -12,27 +12,27 @@ import { FaArrowRight } from 'react-icons/fa6';
 
 const Banner = () => {
 	return (
-		<div className="banner overflow-hidden relative z-50">
+		<div className="banner overflow-hidden relative z-50 bg-primaryColor pb-60">
 			<Navbar />
 			<div>
-				<h1 className="large-text text-6xl uppercase tracking-tighter relative font-bold">
+				<h1 className="large-text uppercase tracking-tighter relative font-bold text-5xl sm:text-[80px] md:text-[110px] lg:text-[132px] leading-[70px] sm:leading-[110px] md:leading-[140px] lg:leading-[171px] my-20 md:my-4">
 					<img
-						className="absolute w-9 md:w-20 top-[30px] md:top-[100px] lg:top-[130px] left-[120px] sm:left-[180px]  md:left-[220px] lg:left-[350px]"
+						className="absolute w-11 sm:w-20 top-[30px] sm:top-[80px] lg:top-[130px] left-[130px] sm:left-[180px]  md:left-[220px] lg:left-[350px]"
 						src={element}
 						alt=""
 					/>
 					Get away to <br /> your{' '}
 					<span className="underline"> knowledge </span>Universe
 					<img
-						className="absolute right-16 lg:right-64 -bottom-20 lg:-bottom-24"
+						className="absolute right-32 sm:right-24 lg:right-[295px] -bottom-4 lg:-bottom-16 w-12 sm:w-[146px]"
 						src={arrowimg}
 						alt="Arrow"
 					/>
 				</h1>
 			</div>
 
-			<div className=" grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
-				<div className="order-last lg:order-first col-span-2 m-2 sm:m-6 md:m-16 lg:p-12">
+			<div className=" grid grid-cols-1 xl:grid-cols-9 items-center">
+				<div className=" col-span-5 m-2 sm:m-6  md:my-16 lg:p-8">
 					{/* Div-content-1 */}
 					<div>
 						<HorizontalRuler />
@@ -90,24 +90,19 @@ const Banner = () => {
 						</div>
 					</div>
 				</div>
-				<div className="bg-image rotate-[6.85deg] m-6 relative right-0">
+				<div className="bg-image relative right-0 rotate-[6.85deg] m-auto -bottom-36">
 					<img
-						className="bg-image absolute -bottom-80"
-						src={rectangle1}
-						alt=""
-					/>
-					<img
-						className="absolute -bottom-[340px] -rotate-[7deg] z-50"
+						className="absolute -bottom-[18px] md:-bottom-[24px] right-0 -rotate-[7deg] z-50"
 						src={manImg}
 						alt=""
 					/>
 					<div className="flex justify-center">
-						<h1 className="text-outline text-6xl text-start font-bold absolute m-2">
+						<h1 className="text-outline  text-4xl md:text-7xl text-start font-bold absolute m-4">
 							Your Course Guide
 						</h1>
 					</div>
 					<div>
-						<h3 className="demo-text absolute z-50 text-white bg-white bg-opacity-20 p-1 rounded-3xl backdrop-blur-sm w-2/3 text-center flex justify-between items-center text-sm">
+						<h3 className="demo-text relative z-50 text-white bg-white bg-opacity-20 p-1 rounded-3xl backdrop-blur-sm w-2/3 text-center flex justify-between items-center text-sm">
 							<span className="p-4 bg-white rounded-full">
 								<FaArrowRight className=" text-black" />
 							</span>

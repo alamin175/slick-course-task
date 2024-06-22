@@ -4,7 +4,7 @@ import premiumImg from '/assets/premium.png';
 const Destination = () => {
 	return (
 		<div className="bg-secondaryColor relative -top-32 p-8 2xl:p-10 rounded-[50px]">
-			<p className="text-black absolute mt-48 text-[205px] font-bold left-44 -top-4 inset-0 ">
+			<p className="text-black absolute mt-48 text-[205px] font-bold left-10 md:left-44 -top-4 inset-0 ">
 				*
 			</p>
 			<h1 className="relative uppercase text-4xl sm:text-6xl md:text-[80px] text-center font-bold mt-52 text-white ">
@@ -49,10 +49,6 @@ const Destination = () => {
 					</h3>
 				</div>
 			</div>
-
-			{/* <div className="style">
-				<div className="style1">fantastic lorem100</div>
-			</div> */}
 		</div>
 	);
 };
