@@ -1,3 +1,4 @@
+import { HashLink } from 'react-router-hash-link';
 import logo from '/assets/logo.png';
 import { MdMenu } from 'react-icons/md';
 
@@ -5,13 +6,19 @@ const Navbar = () => {
 	const listing = (
 		<>
 			<li className="uppercase font-bold text-lg hover:text-secondaryColor ">
-				<a>Courses</a>
+				<HashLink smooth to="/#courses">
+					Courses
+				</HashLink>
 			</li>
 			<li className="uppercase font-bold text-lg hover:text-secondaryColor ">
-				<a>Community</a>
+				<HashLink smooth to="/#community">
+					Community
+				</HashLink>
 			</li>
 			<li className="uppercase font-bold text-lg hover:text-secondaryColor ">
-				<a>Contact Us</a>
+				<HashLink smooth to="/#contact">
+					Contact Us
+				</HashLink>
 			</li>
 		</>
 	);

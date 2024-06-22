@@ -4,14 +4,21 @@ import teacherimg2 from '/assets/man-3.png';
 const Teacher = () => {
 	return (
 		<div className="bg-primaryColor py-28 px-6 lg:px-28 rounded-[50px]">
-			<h1
-				data-aos="fade-down"
-				className="text-center text-3xl sm:text-5xl md:text-7xl  uppercase leading-tight font-extrabold"
-			>
-				build skills from <br />{' '}
-				<span className="text-secondaryColor underline">professional</span>{' '}
-				Teacher
-			</h1>
+			<div className="relative">
+				<h1
+					data-aos="fade-down"
+					className="text-center text-3xl sm:text-5xl md:text-7xl  uppercase leading-tight font-extrabold"
+				>
+					build skills from <br />{' '}
+					<span className="text-secondaryColor underline">
+						professional
+					</span>{' '}
+					Teacher
+				</h1>
+				<p className="absolute mt-48 text-[200px] md:text-[370px] font-bold -top-52 md:-top-72 right-16 md:right-20 icon-outline">
+					*
+				</p>
+			</div>
 			<div className="teacher-container grid xl:grid-cols-2 place-items-center gap-32 my-24">
 				{/* Teacher-1 */}
 				<div
@@ -21,6 +28,7 @@ const Teacher = () => {
 					<h1 className="m-2 md:m-8 text-lg sm:text-3xl absolute max-w-[14ch] tracking-widest leading-normal">
 						Difference between css and css3.
 					</h1>
+
 					<div className="flex justify-between items-end ">
 						<div className="m-2 md:m-8">
 							<h2 className="text-lg md:text-xl md:mb-2">jackob alex</h2>
@@ -29,10 +37,11 @@ const Teacher = () => {
 								developer
 							</p>
 						</div>
+
 						<img
 							src={teacherimg1}
 							alt=""
-							className="relative w-1/2 md:w-[400px]  -right-6 md:-right-4 -bottom-6 md:-bottom-4"
+							className="relative w-1/2 md:w-[400px]  -right-6 md:-right-4 -bottom-6 md:-bottom-4 z-50"
 						/>
 					</div>
 				</div>

@@ -1,6 +1,7 @@
 import { FaStar } from 'react-icons/fa6';
 import useCourseData from '../../hooks/useCourseData';
 import { useState } from 'react';
+import { FaStarOfLife } from 'react-icons/fa';
 
 const Courses = () => {
 	const [courses] = useCourseData();
@@ -8,14 +9,19 @@ const Courses = () => {
 	const browseToShow = browseAll ? browseAll.length : 3;
 
 	return (
-		<div>
-			<h1
-				data-aos="fade-down"
-				className="text-center text-4xl md:text-7xl font-extrabold uppercase leading-tight"
-			>
-				simple and powerful <br />{' '}
-				<span className="text-secondaryColor underline">it courses</span>
-			</h1>
+		<div id="courses">
+			<div className="relative">
+				<h1
+					data-aos="fade-down"
+					className="text-center text-4xl md:text-7xl font-extrabold uppercase leading-tight"
+				>
+					simple and powerful <br />{' '}
+					<span className="text-secondaryColor underline">it courses</span>
+				</h1>
+				<p className="absolute mt-48 text-[200px] md:text-[370px] font-bold -top-52 md:-top-72 right-32 md:right-56 icon-outline">
+					*
+				</p>
+			</div>
 			<div className="flex flex-col gap-6 w-11/12 mx-auto my-20">
 				{courses.slice(0, browseToShow).map(course => (
 					<div data-aos="fade-down" key={course.id}>

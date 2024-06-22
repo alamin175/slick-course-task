@@ -4,6 +4,7 @@ import App from './App.jsx';
 import './index.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { HashRouter } from 'react-router-dom';
 
 Aos.init({
 	// Global settings:
@@ -28,6 +29,10 @@ Aos.init({
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
-		<App />
+		<HashRouter>
+			<div className="overflow-hidden">
+				<App />
+			</div>
+		</HashRouter>
 	</React.StrictMode>
 );

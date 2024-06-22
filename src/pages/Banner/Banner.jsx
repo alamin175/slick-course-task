@@ -103,7 +103,7 @@ const Banner = () => {
 						alt=""
 					/>
 					<div className="flex justify-center">
-						<h1 className="text-outline  text-4xl md:text-7xl text-start font-bold absolute m-4">
+						<h1 className="text-outline  text-4xl md:text-7xl text-start font-bold absolute m-4 top-[30px]">
 							Your Course Guide
 						</h1>
 					</div>

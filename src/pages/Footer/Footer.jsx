@@ -2,7 +2,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6';
 import logo from '/assets/logo.png';
 const Footer = () => {
 	return (
-		<footer data-aos="zoom-up">
+		<footer id="contact" data-aos="zoom-up">
 			{/* Link Footer */}
 			<div className="grid lg:grid-cols-2 mx-3 md:mx-20 mt-20 mb-10 uppercase gap-16 md:gap-32">
 				<div className="flex justify-between ">

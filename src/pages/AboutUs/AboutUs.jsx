@@ -5,6 +5,7 @@ import img3 from '/assets/women-2.png';
 const AboutUs = () => {
 	return (
 		<div
+			id="community"
 			data-aos="fade-up"
 			className="bg-secondaryColor pt-20 relative -top-20 rounded-[50px]"
 		>

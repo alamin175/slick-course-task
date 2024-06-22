@@ -3,7 +3,7 @@ import supportImg from '/assets/support-2.png';
 import premiumImg from '/assets/premium.png';
 const Destination = () => {
 	return (
-		<div className="bg-secondaryColor relative -top-32 p-8 2xl:p-10 rounded-[50px]">
+		<div className="bg-secondaryColor relative -top-32 py-8 2xl:p-10 rounded-[50px]">
 			<p className="text-black absolute mt-48 text-[205px] font-bold left-10 md:left-44 -top-4 inset-0 ">
 				*
 			</p>

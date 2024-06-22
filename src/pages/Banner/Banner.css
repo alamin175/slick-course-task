@@ -16,14 +16,6 @@
 	border-radius: 30px;
 	bottom: -80px;
 }
-
-.text-outline {
-	color: transparent;
-	-webkit-text-stroke: 1px white;
-	opacity: 20%;
-	top: 30px;
-}
-
 .demo-text {
 	bottom: -330px;
 	margin: auto;
