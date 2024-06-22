@@ -4,8 +4,14 @@ import img3 from '/assets/women-2.png';
 
 const AboutUs = () => {
 	return (
-		<div className="bg-secondaryColor pt-20 relative -top-20 rounded-[50px]">
-			<h1 className="text-center text-3xl sm:text-5xl md:text-7xl font-extrabold text-white uppercase leading-tight ">
+		<div
+			data-aos="fade-up"
+			className="bg-secondaryColor pt-20 relative -top-20 rounded-[50px]"
+		>
+			<h1
+				data-aos="fade-down"
+				className="text-center text-3xl sm:text-5xl md:text-7xl font-extrabold text-white uppercase leading-tight "
+			>
 				<span className="text-primaryColor underline">successful</span>{' '}
 				people <br /> talk's about us
 			</h1>
@@ -17,6 +23,7 @@ const AboutUs = () => {
 				/>
 
 				<img
+					data-aos="zoom-in-up"
 					className="w-[300px] md:w-[600px] mb-24 mx-auto"
 					src={img2}
 					alt=""

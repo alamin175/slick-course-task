@@ -7,7 +7,10 @@ const Destination = () => {
 			<p className="text-black absolute mt-48 text-[205px] font-bold left-10 md:left-44 -top-4 inset-0 ">
 				*
 			</p>
-			<h1 className="relative uppercase text-4xl sm:text-6xl md:text-[80px] text-center font-bold mt-52 text-white ">
+			<h1
+				className="relative uppercase text-4xl sm:text-6xl md:text-[80px] text-center font-bold mt-52 text-white "
+				data-aos="fade-down-right"
+			>
 				we help you to reach <br /> your{' '}
 				<span className="underline text-primaryColor z-50">
 					destination
@@ -16,7 +19,7 @@ const Destination = () => {
 
 			<div className="details-container grid grid-cols-1 xl:grid-cols-2 gap-10 place-items-center my-24">
 				{/* Card-1 */}
-				<div className="p-6 sm:p-10 rounded-[30px]">
+				<div data-aos="fade-right" className="p-6 sm:p-10 rounded-[30px]">
 					<img className="w-12 sm:w-20" src={supportImg} alt="Support" />
 					<h1 className="text-2xl sm:text-4xl font-bold uppercase my-6">
 						Always Call Support
@@ -33,7 +36,7 @@ const Destination = () => {
 				</div>
 
 				{/* Card-2 */}
-				<div className="p-6 sm:p-10 rounded-[30px]">
+				<div data-aos="fade-left" className="p-6 sm:p-10 rounded-[30px]">
 					<img className="w-12 sm:w-20" src={premiumImg} alt="Support" />
 					<h1 className="text-2xl sm:text-4xl font-bold uppercase my-6">
 						Premium access

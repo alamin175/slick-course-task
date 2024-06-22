@@ -14,7 +14,7 @@ const Banner = () => {
 	return (
 		<div className="banner overflow-hidden relative z-50 bg-primaryColor pb-60">
 			<Navbar />
-			<div>
+			<div data-aos="fade-down">
 				<h1 className="large-text uppercase tracking-tighter relative font-bold text-5xl sm:text-[80px] md:text-[110px] lg:text-[132px] leading-[70px] sm:leading-[110px] md:leading-[140px] lg:leading-[171px] my-20 md:my-4">
 					<img
 						className="absolute w-11 sm:w-20 top-[30px] sm:top-[80px] lg:top-[130px] left-[130px] sm:left-[180px]  md:left-[220px] lg:left-[350px]"
@@ -32,7 +32,10 @@ const Banner = () => {
 			</div>
 
 			<div className=" grid grid-cols-1 xl:grid-cols-9 items-center">
-				<div className=" col-span-5 m-2 sm:m-6  md:my-16 lg:p-8">
+				<div
+					className="col-span-5 m-2 sm:m-6  md:my-16 lg:p-8"
+					data-aos="fade-down-right"
+				>
 					{/* Div-content-1 */}
 					<div>
 						<HorizontalRuler />
@@ -90,7 +93,10 @@ const Banner = () => {
 						</div>
 					</div>
 				</div>
-				<div className="bg-image relative right-0 rotate-[6.85deg] m-auto -bottom-36">
+				<div
+					className="bg-image relative right-0 rotate-[6.85deg] m-auto -bottom-36 "
+					data-aos="fade-down-left"
+				>
 					<img
 						className="absolute -bottom-[18px] md:-bottom-[24px] right-0 -rotate-[7deg] z-50"
 						src={manImg}

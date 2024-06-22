@@ -9,13 +9,16 @@ const Courses = () => {
 
 	return (
 		<div>
-			<h1 className="text-center text-4xl md:text-7xl font-extrabold uppercase leading-tight">
+			<h1
+				data-aos="fade-down"
+				className="text-center text-4xl md:text-7xl font-extrabold uppercase leading-tight"
+			>
 				simple and powerful <br />{' '}
 				<span className="text-secondaryColor underline">it courses</span>
 			</h1>
 			<div className="flex flex-col gap-6 w-11/12 mx-auto my-20">
 				{courses.slice(0, browseToShow).map(course => (
-					<div key={course.id}>
+					<div data-aos="fade-down" key={course.id}>
 						<div className="sm:flex justify-between items-center ">
 							<div className="flex gap-2 sm:gap-6 md:gap-10 items-center">
 								<img
