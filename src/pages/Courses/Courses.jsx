@@ -9,7 +9,7 @@ const Courses = () => {
 
 	return (
 		<div>
-			<h1 className="text-center text-7xl font-extrabold uppercase leading-normal">
+			<h1 className="text-center text-7xl font-extrabold uppercase leading-tight">
 				simple and powerful <br />{' '}
 				<span className="text-secondaryColor underline">it courses</span>
 			</h1>

@@ -1,0 +1,14 @@
+.teacher-container > div {
+	width: 680px;
+	height: 510px;
+}
+.teacher-container > div:first-child {
+	background-image: url('/assets/rectangle-4.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.teacher-container > div:last-child {
+	background-image: url('/assets/rectangle-5.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
