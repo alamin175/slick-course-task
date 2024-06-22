@@ -4,6 +4,11 @@
 	/* text-align: center; */
 }
 
+.footer-nav a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
 @font-face {
 	font-family: 'Ranade';
 	src: url(/Ranade-Variable.ttf);
