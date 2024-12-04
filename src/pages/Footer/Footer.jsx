@@ -100,7 +100,7 @@ const Footer = () => {
 						privacy & policy
 					</a>
 				</p>
-				<p>© 2024 seative digital all rights reserved</p>
+				<p>© 2024 Md.Al-Amin all rights reserved</p>
 			</div>
 		</footer>
 	);
